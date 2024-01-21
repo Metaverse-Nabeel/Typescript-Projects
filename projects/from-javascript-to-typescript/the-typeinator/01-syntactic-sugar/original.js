@@ -2,7 +2,7 @@ function announceMachines(announce) {
 	var label;
 	var labelsCount = 0;
 
-	for (var i = 1; i < arguments.length; i += 1) {
+	for (let i = 1; i < arguments.length; i += 1) {
 		const machine = arguments[i];
 
 		if (machine.label) {
